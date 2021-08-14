@@ -3,9 +3,9 @@
     {
       "name": "release",
       "version": "1.4.1",
-      "commit": "50375e3",
+      "commit": "a934e1b",
       "upstream": "Stable",
-      "lastUpdated": "2021-08-08T22:34:16.804Z"
+      "lastUpdated": "2021-08-14T15:57:22.308Z"
     },
     {
       "name": "testing",
