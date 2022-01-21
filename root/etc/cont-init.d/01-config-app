@@ -21,3 +21,7 @@ if [[ ! -f "${CONFIG_DIR}/duplicacy.json" ]]; then
     echo '{}' > "${CONFIG_DIR}/duplicacy.json"
     chown hotio:hotio "${CONFIG_DIR}/duplicacy.json"
 fi
+
+if [[ -f "${CONFIG_DIR}/licenses.json" ]]; then
+    rm /config/licenses.json
+fi
